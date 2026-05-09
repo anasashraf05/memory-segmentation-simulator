@@ -3,6 +3,7 @@ from models.hole import Hole
 from models.process import Process
 from models.segment import Segment
 from utils.visualization import print_memory_map, print_segment_table
+from ui.pygame_ui import run_pygame
 
 def safe_int(prompt):
     while True:
@@ -99,6 +100,7 @@ def run_cli():
             mm.print_status()
             print_memory_map(mm)
             print_segment_table(mm)
+            run_pygame(mm)
         elif choice == "4":
             print(" Exiting simulator.")
             break
