@@ -1,4 +1,4 @@
-from ui.cli import run_cli
+from ui.pygame_ui import run_pygame
 
 if __name__ == "__main__":
-    run_cli()
+    run_pygame()
