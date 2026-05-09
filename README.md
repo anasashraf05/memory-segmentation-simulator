@@ -31,14 +31,6 @@ A Python-based simulation of memory allocation using **Segmentation** with suppo
 
 ---
 
-## 📁 Project Structure
-src/
-├── core/ # Memory management logic
-├── models/ # Data structures (Hole, Segment, Process)
-├── ui/ # Pygame GUI
-├── utils/ # Visualization helpers
-└── main.py
-
 ## ▶️ How to Run
 -First option
 exe file link: https://drive.google.com/drive/folders/1G60ZGInXsYCz4oNjQWLZ6fYBWZntMSXT?usp=sharing
